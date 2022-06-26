@@ -1,4 +1,4 @@
-package com.kanneki.leetcodekotlin.twoSun
+package com.kanneki.leetcodekotlin.two_sun
 
 class Main {
     fun twoSum(nums: IntArray, target: Int): IntArray {
