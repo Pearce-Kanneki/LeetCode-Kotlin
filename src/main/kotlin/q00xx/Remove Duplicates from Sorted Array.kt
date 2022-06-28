@@ -1,6 +1,9 @@
-package com.kanneki.leetcodekotlin.remove_duplicates_from_sorted_array
+package q00xx
 
-class RemoveDuplicates {
+/**
+ * No.26
+ */
+class `Remove Duplicates from Sorted Array` {
 
     fun removeDuplicates(nums: IntArray): Int {
         if(nums.size <= 1) return nums.size

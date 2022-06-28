@@ -1,6 +1,9 @@
-package com.kanneki.leetcodekotlin.longest_common_prefix
+package q00xx
 
-class main {
+/**
+ * No.14
+ */
+class `Longest Common Prefix` {
 
     /**
      * 參考別人提的方案,最佳解

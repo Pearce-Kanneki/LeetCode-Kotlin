@@ -1,8 +1,9 @@
-package com.kanneki.leetcodekotlin.palindrome_number
+package q00xx
 
-import kotlin.math.abs
-
-class main {
+/**
+ * No.9
+ */
+class `Palindrome Number` {
 
     fun isPalindrome(x: Int): Boolean {
         if (x != Math.abs(x)) return false

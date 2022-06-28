@@ -1,6 +1,9 @@
-package com.kanneki.leetcodekotlin.remove_element
+package q00xx
 
-class RemoveElement {
+/**
+ * No.27
+ */
+class `Remove Element` {
 
     fun removeElement(nums: IntArray, `val`: Int): Int {
 

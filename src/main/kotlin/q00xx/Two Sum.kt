@@ -1,6 +1,10 @@
-package com.kanneki.leetcodekotlin.two_sun
+package q00xx
 
-class Main {
+/**
+ * No.1
+ */
+class `Two Sum` {
+
     fun twoSum(nums: IntArray, target: Int): IntArray {
 
         val map = HashMap<Int, Int>()

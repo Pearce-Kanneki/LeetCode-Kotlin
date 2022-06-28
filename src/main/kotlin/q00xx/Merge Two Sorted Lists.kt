@@ -1,6 +1,9 @@
-package com.kanneki.leetcodekotlin.merge_two_sorted_lists
+package q00xx
 
-class MergeTwoSortedLists {
+/**
+ * No.21
+ */
+class `Merge Two Sorted Lists` {
 
     fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
         return when {
@@ -36,14 +39,13 @@ class MergeTwoSortedLists {
                 c = c?.next
             }
 
-            prev = prev.next
+            prev = prev.next!!
         }
 
         if (r == null) prev.next = c else prev.next = r
 
         return preHead.next
     }
-
 }
 
 class ListNode(var `val`: Int) {

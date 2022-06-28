@@ -1,6 +1,9 @@
-package com.kanneki.leetcodekotlin.implement_strStr
+package q00xx
 
-class ImplementStrStr {
+/**
+ * No.28
+ */
+class `Implement strStr()` {
 
     fun strStr(haystack: String, needle: String): Int {
         // return haystack.indexOf(needle)
@@ -21,6 +24,4 @@ class ImplementStrStr {
         }
         return -1
     }
-
-
 }

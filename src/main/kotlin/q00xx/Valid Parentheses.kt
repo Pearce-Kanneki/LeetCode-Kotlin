@@ -1,8 +1,11 @@
-package com.kanneki.leetcodekotlin.valid_parentheses
+package q00xx
 
+import java.util.ArrayDeque
 
-
-class ValidParentheses {
+/**
+ * No.20
+ */
+class `Valid Parentheses` {
 
     fun isValid(s: String): Boolean {
 
