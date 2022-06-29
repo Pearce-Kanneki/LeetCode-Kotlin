@@ -1,4 +1,4 @@
-package q00xx
+package q00
 
 import java.util.ArrayDeque
 
