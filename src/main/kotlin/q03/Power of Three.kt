@@ -22,10 +22,10 @@ class `Power of Three` {
         }
 
         while (n1 % 3 == 0) {
-            n1 /= 3;
+            n1 /= 3
         }
 
-        return n1 == 1;
+        return n1 == 1
     }
 
     fun isPowerOfThree2(n: Int): Boolean {
