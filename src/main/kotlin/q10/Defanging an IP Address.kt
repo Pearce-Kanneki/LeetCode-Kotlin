@@ -4,7 +4,7 @@ package q10
  * No.1108
  */
 class `Defanging an IP Address` {
-    
+
     /**
      *
      */
